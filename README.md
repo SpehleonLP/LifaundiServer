@@ -7,7 +7,7 @@ Lifaundi uses the [IXWebSocket](https://github.com/machinezone/IXWebSocket) libr
 
 ## Connecting as a client:
 
-When the game starts it will try to start listening to incoming websocket connections on port 34013, this requires that no other programs have this port in use, then to connect from javascript for example use: `WebSocket("ws://localhost:34013/", [protocol])`. Then engine will automatically reject any incoming connections that are not from localhost--it checks for localhost on both ipv4 and ipv6 standards.
+When the game starts it will try to start listening to incoming websocket connections on port 34013, this requires that no other programs have this port in use, then to connect from javascript for example use: `WebSocket("ws://localhost:34013/", [protocol])`. Note that the engine will automatically reject any incoming connections that are not from localhost--it checks for localhost on both ipv4 and ipv6 standards.
 
 ## Custom protocol example:
 
