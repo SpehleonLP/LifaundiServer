@@ -3,7 +3,7 @@ Example Webserver for lifaundi.  This repo contains documentation for how to cre
 
 # Basics
 
-Lifaundi uses the [IXWebSocket](https://github.com/machinezone/IXWebSocket) library to manage it's networking; but any kind of websocket library should work so long as it supports subprotocols. The engine supports two kinds of protocols: Hash protocols and custom protocols. The hash protocols are built ins such as `#GENETICS_KIT`, `#MOUSE_DEBUG` and `#PARTICLE`.  While custom protocols are script defined.
+Lifaundi uses the [IXWebSocket](https://github.com/machinezone/IXWebSocket) library to manage it's networking; but any kind of websocket library should work so long as it supports subprotocols. The engine supports two kinds of protocols: Hash protocols and custom protocols. The hash protocols are built ins such as `#GENETICS_KIT`, [#MOUSE_DEBUG](https://spehleonlp.neocities.org/MouseDebug/) and [#PARTICLE](https://spehleonlp.neocities.org/ParticleEditor/).  While custom protocols are script defined.
 
 ## Connecting as a client:
 
