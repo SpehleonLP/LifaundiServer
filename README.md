@@ -28,7 +28,7 @@ class Echo
 	void OnError(Network::Error) { Println("Connetion Error"); }
 
 	[193]
-	void OnMessageRecieved(dictionary@ message, uint8[]@ buffer) { me.send(@message); }
+	void OnMessageRecieved(dictionary@ json, uint8[]@ buffer) { me.send(@json); }
 }
 ```
 
