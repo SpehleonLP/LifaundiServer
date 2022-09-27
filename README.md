@@ -32,7 +32,7 @@ class Echo
 }
 ```
 
-If this class is in a Package `Package` by author `Author` then it would use the websocket subprotocol: `Package@Author$Echo`. Connecting to this subprotocol as a client will spawn an object of this class to handle the protocol; conversely to connect from the engine to the server `my.url.com` at port `34013` then: *from inside the package where the protocol was declared* use `Network::Connect("wss://my.url.com:34013", "Echo")`
+If this class is in a Package `Package` by author `Author` then it would use the websocket subprotocol: `Package@Author$Echo`. Connecting to this subprotocol as a client will spawn an object of this class to handle the protocol; conversely to connect from the engine to the server `my.url.com` at port `34013` then: *from inside the package where the protocol was declared* use `Network::Connect("wss://my.url.com:34013", "Echo")`, this will try to open a websocket with the target server using the subprotocol `Package@Author$Echo`
 
 # Message formatting
 
